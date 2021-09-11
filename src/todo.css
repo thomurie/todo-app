@@ -1,0 +1,56 @@
+.Todo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  width: 50%;
+  height: max-content;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.Todo-Task {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  background-color: #52489c;
+  border-radius: 1rem;
+  color: #ebebeb;
+  font-size: 1.5rem;
+}
+
+.Todo-Options {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+  border-radius: 1rem;
+}
+.Todo-Options button {
+  width: 50%;
+  background-color: #59c3c3; /* Green */
+  border: none;
+  border-radius: 5px;
+  color: black;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 0.25rem;
+  margin-left: 0.125rem;
+  margin-right: 0.125rem;
+  font-size: 1rem;
+  transition-duration: 0.4s;
+}
+
+.Todo-Options button:hover {
+  background-color: #4062bb;
+  border-color: #4062bb;
+  color: #ebebeb;
+}
+
+/* purple = 52489c,blue = 4062bb,green = 59c3c3, white = ebebeb,red = f45b69 */
